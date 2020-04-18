@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bday" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/amr"
+        android:paddingTop="40dp"
+        android:paddingLeft="20dp"
+        android:src="@drawable/ballons" />
+
+        <TextView
+            android:id="@+id/happy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Happy"
+            android:background="@android:color/holo_orange_light"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="46sp"
+            android:fontFamily="sans-serif-light"
+             />
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/happy"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:fontFamily="sans-serif-light"
+        android:text="Birthday"
+        android:textColor="@android:color/white"
+        android:textSize="46sp"
+        />
+
+    <TextView
+        android:id="@+id/amr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Amr Reda"
+        android:layout_below="@id/birthday"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="46sp"
+        android:fontFamily="sans-serif-light"
+
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="From Dahi"
+            android:background="@android:color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="120dp"
+            android:paddingLeft="20dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+             />
+
+
+    </RelativeLayout>
